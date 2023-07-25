@@ -1,3 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.nav-bg {
+  background-image: url("./assets/NavImg.jpeg");
+}
+.nav-link{
+    @apply hover:scale-125 
+}
