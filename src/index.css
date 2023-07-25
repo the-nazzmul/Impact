@@ -5,6 +5,10 @@
 .nav-bg {
   background-image: url("./assets/NavImg.jpeg");
 }
+.footer-bg{
+    background-image: url("./assets/footer.png");
+    background-repeat: repeat;
+}
 .nav-link{
     @apply hover:scale-125 
 }
