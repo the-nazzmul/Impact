@@ -6,54 +6,50 @@ import { TbWorld } from "react-icons/tb";
 import { GoLocation } from "react-icons/go";
 import { TbDeviceLandlinePhone } from "react-icons/tb";
 import { BsTelephone } from "react-icons/bs";
-import pbxIcon from "./../../../assets/pbx.png"
+import pbxIcon from "./../../../assets/pbx.png";
 
 const Footer = () => {
   return (
     <>
-      <footer className="footer  text-base-content footer-bg min-h-[439px] relative">
+      <footer className="footer text-base-content footer-bg min-h-[439px] relative">
         <div className="bg-[#00110C] w-full h-full absolute opacity-80"></div>
         <div
           id="footer-container"
-          className="text-white w-full absolute z-10 p-10 2xl:px-80 xl:py-24 flex flex-col lg:flex-row justify-between"
+          className="text-white w-full absolute z-10 p-10 2xl:px-80 xl:py-24 flex flex-col md:flex-row justify-between"
         >
           {/* 1st */}
-          <div>
-            <div className="mb-20">
-              <Link to="/">
-                <div className="flex gap-[13px] items-center">
-                  <img src={logo} alt="logo" />
-                  <h3 className="uppercase text-[40px]">Impact</h3>
-                </div>
-              </Link>
+          <div className="mb-2">
+            <div className="mb-4 md:mb-20 flex gap-[13px] items-center">
+              <img src={logo} alt="logo" className=" h-8" />
+              <h3 className="uppercase text-3xl font-bold md:text-[40px]">Impact</h3>
             </div>
-            <div className="flex flex-col xl:flex-row gap-9">
-              <button className="btn bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
+            <div className="flex flex-col xl:flex-row gap-2">
+              <button className="btn hidden md:block bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
                 Call for Paper
               </button>
-              <button className="btn bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
+              <button className="btn hidden md:block bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
                 Registration
               </button>
             </div>
-            <div className="flex gap-7 mt-14">
-              <button className="btn btn-outline btn-circle text-white">
+            <div className="flex gap-1 md:gap-7 mt-2 md:mt-14">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
                 <FiMail size={20}></FiMail>
               </button>
-              <button className="btn btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
                 <FiFacebook size={20}></FiFacebook>
               </button>
-              <button className="btn btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
                 <FiYoutube size={20}></FiYoutube>
               </button>
-              <button className="btn btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
                 <SlSocialLinkedin size={20}></SlSocialLinkedin>
               </button>
             </div>
           </div>
           {/* 2nd */}
           <div>
-            <h3 className="font-bold text-white text-2xl mb-6">Useful Links</h3>
-            <ul className="flex flex-col gap-3 ">
+            <h3 className="font-bold text-white text-2xl md:mb-6">Useful Links</h3>
+            <ul className="flex flex-col md:gap-3 ">
               <li>
                 <TbWorld className="text-[#F34509] inline-block" size={24} />{" "}
                 https://encon.iesd.buet.ac.bd
@@ -70,8 +66,8 @@ const Footer = () => {
           </div>
           {/* 3rd */}
           <div>
-            <h3 className="font-bold text-white text-2xl mb-6">Contact</h3>
-            <ul className="flex flex-col gap-3 ">
+            <h3 className="font-bold text-white text-2xl md:mb-6">Contact</h3>
+            <ul className="flex flex-col gap-1 md:gap-3 ">
               <li>
                 <GoLocation className="text-[#F34509] inline-block" size={18} />{" "}
                 ROOM NO: 1107, ECE Building, BUET

@@ -11,8 +11,9 @@
   background-repeat: no-repeat;
 }
 .footer-bg {
-  background-image: url("./assets/footer.png");
-  background-repeat: repeat;
+  background-image: url("./assets/footer.jpeg");
+  background-size:cover;
+  background-position: center center;
 }
 .dotted-bg {
   background: #172c27;
