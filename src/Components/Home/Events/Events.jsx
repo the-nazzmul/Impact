@@ -12,7 +12,7 @@ const Events = () => {
         ></SectionHead>
       </div>
       {/* top section */}
-      <div className="my-4">
+      <div className="my-2">
         <TopSection></TopSection>
       </div>
       {/* bottom section */}

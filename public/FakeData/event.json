@@ -4,7 +4,7 @@
     "name": "Music Festival",
     "date": "10th August, 2023",
     "time": "6:00PM-10:00PM",
-    "short_description": "Join us for a lively music festival featuring various bands and artists.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img1.png"
   },
   {
@@ -12,7 +12,7 @@
     "name": "Charity Run",
     "date": "15th August, 2023",
     "time": "8:30AM-10:30AM",
-    "short_description": "Participate in a charity run and help raise funds for a good cause.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img2.png"
   },
   {
@@ -20,7 +20,7 @@
     "name": "Art Exhibition",
     "date": "20th August, 2023",
     "time": "11:00AM-4:00PM",
-    "short_description": "Explore the creative world of art at our annual art exhibition.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img3.png"
   },
   {
@@ -28,7 +28,7 @@
     "name": "Tech Conference",
     "date": "5th September, 2023",
     "time": "9:00AM-5:00PM",
-    "short_description": "Stay updated on the latest technological advancements and innovations.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img1.png"
   },
   {
@@ -36,7 +36,7 @@
     "name": "Food Festival",
     "date": "15th September, 2023",
     "time": "5:00PM-9:00PM",
-    "short_description": "Indulge in a variety of delicious cuisines at our food festival.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img3.png"
   },
   {
@@ -44,7 +44,7 @@
     "name": "Movie Night",
     "date": "25th September, 2023",
     "time": "8:00PM-10:00PM",
-    "short_description": "Enjoy a cozy movie night with friends and family under the stars.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img2.png"
   },
   {
@@ -52,7 +52,7 @@
     "name": "Literary Seminar",
     "date": "5th October, 2023",
     "time": "2:30PM-4:30PM",
-    "short_description": "Engage in thoughtful discussions and analyses of literary works.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img2.png"
   },
   {
@@ -60,7 +60,7 @@
     "name": "Dance Workshop",
     "date": "15th October, 2023",
     "time": "1:00PM-3:00PM",
-    "short_description": "Learn different dance styles and techniques in this fun workshop.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img1.png"
   },
   {
@@ -68,7 +68,7 @@
     "name": "Environmental Cleanup",
     "date": "1st November, 2023",
     "time": "10:00AM-12:00PM",
-    "short_description": "Contribute to the environment by participating in a local cleanup event.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img3.png"
   },
   {
@@ -76,7 +76,7 @@
     "name": "Science Fair",
     "date": "10th November, 2023",
     "time": "9:30AM-1:30PM",
-    "short_description": "Witness exciting science projects and experiments by students.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img1.png"
   },
   {
@@ -84,7 +84,7 @@
     "name": "Environmental Cleanup",
     "date": "1st November, 2023",
     "time": "10:00AM-12:00PM",
-    "short_description": "Contribute to the environment by participating in a local cleanup event.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img3.png"
   },
   {
@@ -92,7 +92,7 @@
     "name": "Science Fair",
     "date": "10th November, 2023",
     "time": "9:30AM-1:30PM",
-    "short_description": "Witness exciting science projects and experiments by students.",
+    "description": "   Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem aut totam nulla maxime?",
     "image_url": "./../../src/assets/event/img1.png"
   }
 ]

@@ -32,7 +32,7 @@ const TopSection = () => {
   return (
     <Slider {...settings}>
       {groupedCards.map((slide, index) => (
-        <div key={index} className="">
+        <div key={index}>
           <div className="card-container flex gap-4">
             {slide.map((card) => (
               <SingleEvent
