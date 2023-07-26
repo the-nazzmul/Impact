@@ -18,7 +18,7 @@ const Banner = () => {
         spaceBetween={30}
         centeredSlides={true}
         autoplay={{
-          delay: 10000,
+          delay: 5000,
           disableOnInteraction: false,
         }}
         pagination={false}
@@ -32,6 +32,61 @@ const Banner = () => {
             <Overlay></Overlay>
             <img
               src={bannerImg1}
+              alt="banner image"
+              className=" object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
+            <Overlay></Overlay>
+            <img
+              src={bannerImg2}
+              alt="banner image"
+              className=" object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
+            <Overlay></Overlay>
+            <img
+              src={bannerImg3}
+              alt="banner image"
+              className=" object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
+            <Overlay></Overlay>
+            <img
+              src={bannerImg4}
+              alt="banner image"
+              className=" object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
+            <Overlay></Overlay>
+            <img
+              src={bannerImg5}
+              alt="banner image"
+              className=" object-cover"
+            />
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div className="relative">
+            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
+            <Overlay></Overlay>
+            <img
+              src={bannerImg6}
               alt="banner image"
               className=" object-cover"
             />
