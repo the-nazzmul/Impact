@@ -15,7 +15,7 @@ const SingleEvent = ({ event }) => {
           <BsFillCalendar2WeekFill className="hidden lg:inline" />
           {event.date}
         </button>
-        <button className="btn btn-xs rounded-sm bg-[#F34509] border-none text-white font-light md:block mb-2 ml-auto hidden">
+        <button className="btn btn-xs rounded-sm bg-[#F34509] border-none text-white font-light block mb-2 ml-auto">
           <BsFillCalendar2WeekFill className="hidden lg:inline" />
           {event.time}
         </button>

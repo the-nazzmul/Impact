@@ -1,5 +1,6 @@
 import SectionHead from "../../SectionHead";
 import img from "./../../../assets/event-pic.jpg";
+import TopSecForSmall from "./TopSecForSmall";
 import TopSection from "./TopSection";
 
 const Events = () => {
@@ -12,8 +13,11 @@ const Events = () => {
         ></SectionHead>
       </div>
       {/* top section */}
-      <div className="my-2">
+      <div className="my-2 hidden md:block">
         <TopSection></TopSection>
+      </div>
+      <div className="md:hidden">
+        <TopSecForSmall></TopSecForSmall>
       </div>
       {/* bottom section */}
       <div className="grid grid-cols-1 lg:gap-0 xl:grid-cols-2">
