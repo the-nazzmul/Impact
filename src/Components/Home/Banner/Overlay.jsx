@@ -4,9 +4,11 @@ import { MdLocationPin } from "react-icons/md";
 const Overlay = () => {
   return (
     <div className="w-full h-full absolute z-20 text-white flex flex-col items-center">
-      <h1 className=" text-[56px] text-center mb-8 mt-28">
-        Energy Conference 2023: <br /> National and Global Issues <br /> (
-        IMPACT )
+      <h1 className=" text-[56px] text-center mb-8 mt-28 font-bold">
+        <span className=" italic">
+          Energy Conference 2023: <br /> National and Global Issues <br />
+        </span>
+        ( IMPACT )
       </h1>
       <div className="flex gap-2">
         <div className="flex items-center gap-2">

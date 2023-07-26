@@ -1,5 +1,6 @@
 import SectionHead from "../../SectionHead";
 import img from "./../../../assets/event-pic.jpg";
+import TopSection from "./TopSection";
 
 const Events = () => {
   return (
@@ -9,6 +10,10 @@ const Events = () => {
           heading="Our Events"
           details="Since 2010, we’ve been welcoming product people to join us in Dhaka, Bangladesh for a day of insights and stories from some of the brightest minds in digital product"
         ></SectionHead>
+      </div>
+      {/* top section */}
+      <div className="my-4">
+        <TopSection></TopSection>
       </div>
       {/* bottom section */}
       <div className="grid grid-cols-1 lg:gap-0 xl:grid-cols-2">

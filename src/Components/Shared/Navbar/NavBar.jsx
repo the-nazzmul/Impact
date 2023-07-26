@@ -32,7 +32,7 @@ const NavBar = () => {
           <Link to="/">
             <div className="flex gap-[13px] items-center">
               <img src={logo} alt="logo" />
-              <h3 className="uppercase text-[40px]">Impact</h3>
+              <h3 className="uppercase font-medium text-[40px]">Impact</h3>
             </div>
           </Link>
         </div>

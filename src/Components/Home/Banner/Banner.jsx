@@ -6,9 +6,6 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import bannerImg1 from "./../../../assets/Banner1.jpg";
 import bannerImg2 from "./../../../assets/Banner2.jpg";
 import bannerImg3 from "./../../../assets/Banner3.jpg";
-import bannerImg4 from "./../../../assets/Banner4.jpg";
-import bannerImg5 from "./../../../assets/Banner5.jpg";
-import bannerImg6 from "./../../../assets/Banner6.jpg";
 import Overlay from "./Overlay";
 
 const Banner = () => {
@@ -54,39 +51,6 @@ const Banner = () => {
             <Overlay></Overlay>
             <img
               src={bannerImg3}
-              alt="banner image"
-              className=" object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative">
-            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
-            <img
-              src={bannerImg4}
-              alt="banner image"
-              className=" object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative">
-            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
-            <img
-              src={bannerImg5}
-              alt="banner image"
-              className=" object-cover"
-            />
-          </div>
-        </SwiperSlide>
-        <SwiperSlide>
-          <div className="relative">
-            <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
-            <img
-              src={bannerImg6}
               alt="banner image"
               className=" object-cover"
             />

@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import logo from "./../../../assets/logo.svg";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiFacebook, FiMail, FiYoutube } from "react-icons/fi";
@@ -21,7 +20,9 @@ const Footer = () => {
           <div className="mb-2">
             <div className="mb-4 md:mb-20 flex gap-[13px] items-center">
               <img src={logo} alt="logo" className=" h-8" />
-              <h3 className="uppercase text-3xl font-bold md:text-[40px]">Impact</h3>
+              <h3 className="uppercase text-3xl font-medium md:text-[40px]">
+                Impact
+              </h3>
             </div>
             <div className="flex flex-col xl:flex-row gap-2">
               <button className="btn hidden md:block bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
@@ -48,7 +49,9 @@ const Footer = () => {
           </div>
           {/* 2nd */}
           <div>
-            <h3 className="font-bold text-white text-2xl md:mb-6">Useful Links</h3>
+            <h3 className="font-bold text-white text-2xl md:mb-6">
+              Useful Links
+            </h3>
             <ul className="flex flex-col md:gap-3 ">
               <li>
                 <TbWorld className="text-[#F34509] inline-block" size={24} />{" "}

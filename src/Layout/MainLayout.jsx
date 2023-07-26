@@ -4,10 +4,10 @@ import NavBar from "../Components/Shared/Navbar/NavBar";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-[1920px] mx-auto">
-        <NavBar></NavBar>
-        <Outlet></Outlet>
-        <Footer></Footer>
+    <div className="max-w-[1920px] mx-auto font-primary">
+      <NavBar></NavBar>
+      <Outlet></Outlet>
+      <Footer></Footer>
     </div>
   );
 };
