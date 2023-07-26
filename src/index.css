@@ -5,15 +5,40 @@
 .nav-bg {
   background-image: url("./assets/NavImg.jpeg");
 }
-.welcome-bg{
-  background-image: url('./assets/welcomeBg.png');
-  min-height:534px;
+.welcome-bg {
+  background-image: url("./assets/welcomeBg.png");
+  min-height: 534px;
   background-repeat: no-repeat;
 }
-.footer-bg{
-    background-image: url("./assets/footer.png");
-    background-repeat: repeat;
+.footer-bg {
+  background-image: url("./assets/footer.png");
+  background-repeat: repeat;
 }
-.nav-link{
-    @apply hover:scale-125 
+.dotted-bg {
+  background: #172c27;
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #898989 1%,
+    transparent 3%
+  );
+  background-size: 50px 50px;
+}
+.dotted-bg-white {
+  /* background: #172c27; */
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #898989 3%,
+    transparent 3%
+  );
+  background-size: 50px 50px;
+}
+.event-bg {
+  background-image: url("./assets/background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgba(1, 6, 2, 0.95);
+}
+
+.nav-link {
+  @apply hover:scale-125;
 }
