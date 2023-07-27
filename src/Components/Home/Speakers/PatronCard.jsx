@@ -1,7 +1,7 @@
 import { TbWorld } from "react-icons/tb";
 import { AiFillThunderbolt } from "react-icons/ai";
 
-const PatronCard = ({ patron }) => {
+const PatronCard = ({ speaker }) => {
   return (
     <div className="relative patron-card bg-white">
       <svg
@@ -19,16 +19,16 @@ const PatronCard = ({ patron }) => {
 
       <div className="absolute z-10 w-full h-full top-4 flex flex-col items-center">
         <div className=" w-60 rounded-full relative border flex flex-col items-center">
-          <img src={patron.image} />
-          {patron.chief && (
+          <img src={speaker.image} />
+          {speaker.status && (
             <button className="btn btn-xs absolute z-20 -bottom-0 bg-[#179748] border-none text-white rounded-sm">
               <AiFillThunderbolt />
-              Chief Patron
+              {speaker.status}
             </button>
           )}
         </div>
-        <h3 className="text-2xl font-bold">{patron.name}</h3>
-        <p className="mb-2">{patron.designation}</p>
+        <h3 className="text-2xl font-bold">{speaker.name}</h3>
+        <p className="mb-2">{speaker.designation}</p>
         <button className="btn btn-square bg-[#EB9231] text-white rounded-md bottom-0">
           <TbWorld size={32}></TbWorld>
         </button>

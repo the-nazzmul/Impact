@@ -4,36 +4,100 @@
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
     "image": "./../../src/assets/patron/avatar1.png",
-    "chief": true
+    "role": "chief patron",
+    "status": "chief patron"
   },
   {
     "id": 2,
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
-    "image": "./../../src/assets/patron/avatar2.png"
+    "image": "./../../src/assets/patron/avatar2.png",
+    "role": "chief patron"
   },
   {
     "id": 3,
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
-    "image": "./../../src/assets/patron/avatar1.png"
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "chief patron"
   },
   {
     "id": 4,
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
-    "image": "./../../src/assets/patron/avatar2.png"
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "chief patron"
   },
   {
     "id": 5,
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
-    "image": "./../../src/assets/patron/avatar1.png"
+    "image": "./../../src/assets/patron/avatar2.png",
+    "role": "chief patron"
   },
   {
     "id": 6,
     "name": "Smith Walker",
     "designation": "Chief Accounting Officer, Matterport",
-    "image": "./../../src/assets/patron/avatar2.png"
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "chief patron"
+  },
+  {
+    "id": 7,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "patron"
+  },
+  {
+    "id": 8,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "patron"
+  },
+  {
+    "id": 9,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "conference chair",
+    "status": "conference chair"
+  },
+  {
+    "id": 10,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar2.png",
+    "role": "conference chair"
+  },
+  {
+    "id": 11,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "conference secretary"
+  },
+  {
+    "id": 12,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "conference secretary"
+  },
+  {
+    "id": 13,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "role": "advisory panel"
+  },
+
+  {
+    "id": 14,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar2.png",
+    "role": "advisory panel"
   }
 ]
