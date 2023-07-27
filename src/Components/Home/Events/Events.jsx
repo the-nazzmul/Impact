@@ -6,7 +6,7 @@ import TopSection from "./TopSection";
 const Events = () => {
   return (
     <>
-      <div className="dotted-bg-white">
+      <div className="dotted-bg-white pb-24">
         <SectionHead
           heading="Our Events"
           details="Since 2010, we’ve been welcoming product people to join us in Dhaka, Bangladesh for a day of insights and stories from some of the brightest minds in digital product"

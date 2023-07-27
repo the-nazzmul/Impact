@@ -1,4 +1,5 @@
 import Banner from "../../Components/Home/Banner/Banner";
+import ConferenceUpdate from "../../Components/Home/Conference Update/ConferenceUpdate";
 import Events from "../../Components/Home/Events/Events";
 import Speakers from "../../Components/Home/Speakers/Speakers";
 import Sponsors from "../../Components/Home/Sponsors/Sponsors";
@@ -11,6 +12,7 @@ const Home = () => {
       <Welcome></Welcome>
       <Events></Events>
       <Speakers></Speakers>
+      <ConferenceUpdate></ConferenceUpdate>
       <Sponsors></Sponsors>
     </div>
   );

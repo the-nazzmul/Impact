@@ -50,8 +50,9 @@ const NavBar = () => {
           </div>
           {isOpen ? (
             <>
-              <div className="absolute rounded-xl shadow-md w-full bg-white overflow-hidden right-0 top-20  text-black p-4 transition">
-                <ul className="flex flex-col items-center gap-4">
+              <div className="absolute rounded-xl shadow-md w-full dotted-bg overflow-hidden right-0 top-20  text-black p-4 transition ">
+                {/* <div className="bg-black w-full h-full opacity-[.69] absolute z-10"></div> */}
+                <ul className="flex flex-col items-center gap-4 text-white">
                   {navElements}
                 </ul>
               </div>

@@ -72,30 +72,30 @@ const Footer = () => {
             <h3 className="font-bold text-white text-2xl md:mb-6">Contact</h3>
             <ul className="flex flex-col gap-1 md:gap-3 ">
               <li>
-                <GoLocation className="text-[#F34509] inline-block" size={18} />{" "}
-                ROOM NO: 1107, ECE Building, BUET
+                <GoLocation className="text-[#F34509] inline-block" size={18} />
+                <span className="ml-2">ROOM NO: 1107, ECE Building, BUET</span>
               </li>
               <li>
                 <TbDeviceLandlinePhone
                   className="text-[#F34509] inline-block"
                   size={18}
-                />{" "}
-                +880-2-55155190
+                />
+                <span className="ml-2">+880-2-55155190</span>
               </li>
               <li>
                 <BsTelephone
                   className="text-[#F34509] inline-block"
                   size={18}
-                />{" "}
-                019456823636
+                />
+                <span className="ml-2">019456823636</span>
               </li>
               <li className="flex">
-                <img src={pbxIcon} />
-                0PABX: +880-2-55666000-02/6303
+                <img src={pbxIcon} height="24px" width="24px" />
+                <span className="ml-2">0PABX: +880-2-55666000-02/6303</span>
               </li>
               <li>
-                <FiMail className="text-[#F34509] inline-block" size={18} />{" "}
-                enconsec.2023@iesd.buet.ac.bd
+                <FiMail className="text-[#F34509] inline-block" size={18} />
+                <span className="ml-2">enconsec.2023@iesd.buet.ac.bd</span>
               </li>
             </ul>
           </div>

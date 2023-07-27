@@ -27,8 +27,6 @@ const Speakers = () => {
     (speaker) => speaker.role === "advisory panel"
   );
 
-  // console.log(speakers);
-  // console.log(chiefPatrion);
   return (
     <div>
       <div className="mic-bg">
@@ -50,7 +48,7 @@ const Speakers = () => {
           category="Conference Chair"
         ></SpeakerCategory>
       </div>
-      <div className="tower-bg">
+      <div className="tower-bg pb-24">
         <SpeakerCategory speakers={ConferenceSecretary} category="Conference Secretary"></SpeakerCategory>
         <SpeakerCategory
           speakers={advisoryPanel}
