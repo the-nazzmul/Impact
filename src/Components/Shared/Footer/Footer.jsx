@@ -101,7 +101,7 @@ const Footer = () => {
           </div>
         </div>
       </footer>
-      <footer className="px-10 py-4 bg-black text-base-content h-[62px]">
+      <footer className="px-10 py-4 bg-black">
         <div className="text-center text-white">
           <h4>Design and Developed by CodersBucket Ltd</h4>
         </div>

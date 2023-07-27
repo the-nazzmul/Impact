@@ -1,0 +1,39 @@
+[
+  {
+    "id": 1,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png",
+    "chief": true
+  },
+  {
+    "id": 2,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar2.png"
+  },
+  {
+    "id": 3,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png"
+  },
+  {
+    "id": 4,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar2.png"
+  },
+  {
+    "id": 5,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar1.png"
+  },
+  {
+    "id": 6,
+    "name": "Smith Walker",
+    "designation": "Chief Accounting Officer, Matterport",
+    "image": "./../../src/assets/patron/avatar2.png"
+  }
+]

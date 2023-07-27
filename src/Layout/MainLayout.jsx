@@ -4,7 +4,7 @@ import NavBar from "../Components/Shared/Navbar/NavBar";
 
 const MainLayout = () => {
   return (
-    <div className="max-w-[1920px] mx-auto font-primary overflow-x-hidden">
+    <div className="max-w-[1920px] mx-auto font-primary overflow-hidden">
       <NavBar></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>

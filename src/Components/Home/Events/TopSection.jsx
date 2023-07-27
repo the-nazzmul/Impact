@@ -8,7 +8,7 @@ const TopSection = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch("./../../../../public/FakeData/event.json")
+    fetch("./FakeData/event.json")
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, []);

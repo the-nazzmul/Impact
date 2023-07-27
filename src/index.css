@@ -48,3 +48,7 @@ body {
 .nav-link {
   @apply hover:scale-125;
 }
+
+.patron-card:hover svg path{
+  fill: #EB9231;
+}
