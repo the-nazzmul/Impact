@@ -5,7 +5,7 @@ import ConferenceCard from "./ConferenceCard";
 const ConferenceUpdate = () => {
   const [updates, setUpdates] = useState([]);
   useEffect(() => {
-    fetch("./FakeData/update.json")
+    fetch("./update.json")
       .then((res) => res.json())
       .then((data) => setUpdates(data));
   }, []);

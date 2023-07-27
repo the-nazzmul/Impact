@@ -8,10 +8,12 @@ const TopSection = () => {
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
-    fetch("./FakeData/event.json")
+    fetch("./event.json")
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, []);
+
+
 
   // Slick setting
   const settings = {

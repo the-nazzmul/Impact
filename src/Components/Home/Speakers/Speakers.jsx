@@ -6,7 +6,7 @@ const Speakers = () => {
   const [speakers, setSpeakers] = useState([]);
 
   useEffect(() => {
-    fetch("./FakeData/patron.json")
+    fetch("./patron.json")
       .then((res) => res.json())
       .then((data) => {
         setSpeakers(data);
@@ -57,7 +57,10 @@ const Speakers = () => {
 
       {/* Secretery and Advisory */}
       <div className="tower-bg pb-24">
-        <SpeakerCategory speakers={ConferenceSecretary} category="Conference Secretary"></SpeakerCategory>
+        <SpeakerCategory
+          speakers={ConferenceSecretary}
+          category="Conference Secretary"
+        ></SpeakerCategory>
         <SpeakerCategory
           speakers={advisoryPanel}
           category="Advisory Panel"
