@@ -1,7 +1,7 @@
 import buetlogo from "./../../../assets/BUET_LOGO.png";
 import IESD from "./../../../assets/IESD.png";
 
-const Overlay = () => {
+const OverlayWelcome = () => {
   return (
     <div className=" w-full h-full absolute z-20 text-white flex flex-col items-center">
       <h1 className="text-white pt-[88px] mb-6 text-4xl font-bold">Welcome</h1>
@@ -13,6 +13,7 @@ const Overlay = () => {
         text of the printing and typesetting industry. Lorem Ipsum has been the
         industry's standard dummy text ever
       </p>
+      {/* bottom cards */}
       <div className="flex justify-center gap-5 pb-24">
         <div className="flex flex-col items-center">
           <img
@@ -43,4 +44,4 @@ const Overlay = () => {
   );
 };
 
-export default Overlay;
+export default OverlayWelcome;

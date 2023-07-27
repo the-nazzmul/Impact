@@ -7,11 +7,13 @@ const Events = () => {
   return (
     <>
       <div className="dotted-bg-white pb-24">
+        {/* Section heading */}
         <SectionHead
           heading="Our Events"
           details="Since 2010, we’ve been welcoming product people to join us in Dhaka, Bangladesh for a day of insights and stories from some of the brightest minds in digital product"
         ></SectionHead>
       </div>
+
       {/* top section */}
       <div className="my-2 hidden md:block">
         <TopSection></TopSection>
@@ -19,11 +21,15 @@ const Events = () => {
       <div className="md:hidden">
         <TopSecForSmall></TopSecForSmall>
       </div>
+
       {/* bottom section */}
       <div className="grid grid-cols-1 lg:gap-0 xl:grid-cols-2">
+        {/* left side */}
         <div>
           <img src={img} alt="event photo" />
         </div>
+
+        {/* right side */}
         <div className="event-bg text-white flex items-center">
           <div className="pl-12 xl:pl-32 my-12">
             <h1 className="text-4xl font-bold 2xl:w-1/2 mb-6">

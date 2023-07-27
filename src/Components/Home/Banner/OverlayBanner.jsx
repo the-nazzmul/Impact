@@ -1,16 +1,19 @@
 import { BsFillCalendar2WeekFill, BsClockFill } from "react-icons/bs";
 import { MdLocationPin } from "react-icons/md";
 
-const Overlay = () => {
+const OverlayBanner = () => {
   return (
-    <div className="w-full h-full absolute z-20 text-white flex flex-col items-center">
-      <h1 className=" text-[56px] text-center mb-8 mt-28 font-bold">
+    <div className="w-full h-full absolute z-20 text-white flex flex-col items-center justify-center">
+      {/* headline */}
+      <h1 className="sm:text-xl md:text-2xl lg:text-3xl xl:text-5xl text-center md:mb-4 lg:mb-8 xl:mb-12 font-bold">
         <span className=" italic">
           Energy Conference 2023: <br /> National and Global Issues <br />
         </span>
         ( IMPACT )
       </h1>
-      <div className="flex gap-2">
+
+      {/* mid-section */}
+      <div className="flex gap-2 text-xs sm:text-sm">
         <div className="flex items-center gap-2">
           <button className="rounded-full bg-white p-2">
             <BsFillCalendar2WeekFill className="text-[#F34509]"></BsFillCalendar2WeekFill>
@@ -30,11 +33,13 @@ const Overlay = () => {
           <p>Dhaka, Bangladesh</p>
         </div>
       </div>
-      <div className="flex gap-9 mt-10">
-        <button className="btn bg-[#F34509] border-none rounded-[50px] text-white w-[158px]">
+
+      {/* bottom-buttons */}
+      <div className="flex gap-2 sm:gap-9 mt-2 sm:mt-10">
+        <button className="btn btn-xs md:btn-sm lg:btn-md bg-[#F34509] border-none rounded-[50px] text-white w-[158px]">
           Details
         </button>
-        <button className="btn bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
+        <button className="btn btn-xs md:btn-sm lg:btn-md bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
           Registration
         </button>
       </div>
@@ -42,4 +47,4 @@ const Overlay = () => {
   );
 };
 
-export default Overlay;
+export default OverlayBanner;

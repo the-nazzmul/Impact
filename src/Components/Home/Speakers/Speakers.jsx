@@ -13,6 +13,7 @@ const Speakers = () => {
       });
   }, []);
 
+  // filterig data according to category
   const chiefPatrion = speakers.filter(
     (speaker) => speaker.role === "chief patron"
   );
@@ -31,16 +32,21 @@ const Speakers = () => {
     <div>
       <div className="mic-bg">
         <div className="text-white">
+          {/* section heading */}
           <SectionHead
             heading="Meet Our Fantastic Speakers"
             details="We seek the best speakers from around the world and let them shape the agenda — they're the experts after all."
           ></SectionHead>
         </div>
+
+        {/* Chief Patron */}
         <SpeakerCategory
           speakers={chiefPatrion}
           category="Chief Patrion"
         ></SpeakerCategory>
       </div>
+
+      {/* Patron and Conference Chair */}
       <div className="thunder-bg">
         <SpeakerCategory speakers={patron} category="Patron"></SpeakerCategory>
         <SpeakerCategory
@@ -48,6 +54,8 @@ const Speakers = () => {
           category="Conference Chair"
         ></SpeakerCategory>
       </div>
+
+      {/* Secretery and Advisory */}
       <div className="tower-bg pb-24">
         <SpeakerCategory speakers={ConferenceSecretary} category="Conference Secretary"></SpeakerCategory>
         <SpeakerCategory

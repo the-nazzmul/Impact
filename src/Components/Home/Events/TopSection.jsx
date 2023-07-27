@@ -12,6 +12,8 @@ const TopSection = () => {
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, []);
+
+  // Slick setting
   const settings = {
     infinite: true,
     speed: 500,
@@ -19,6 +21,7 @@ const TopSection = () => {
     slidesToScroll: 1,
   };
 
+  // grouping function
   const groupIntoChunksOfFour = (data) => {
     const result = [];
     for (let i = 0; i < data.length; i += 4) {
@@ -35,10 +38,7 @@ const TopSection = () => {
         <div key={index}>
           <div className="card-container flex gap-4">
             {slide.map((card) => (
-              <SingleEvent
-                key={card.id}
-                event={card}
-              />
+              <SingleEvent key={card.id} event={card} />
             ))}
           </div>
         </div>

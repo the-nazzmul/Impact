@@ -6,7 +6,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import bannerImg1 from "./../../../assets/Banner1.jpg";
 import bannerImg2 from "./../../../assets/Banner2.jpg";
 import bannerImg3 from "./../../../assets/Banner3.jpg";
-import Overlay from "./Overlay";
+import OverlayBanner from "./OverlayBanner";
 
 const Banner = () => {
   return (
@@ -26,7 +26,7 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
+            <OverlayBanner></OverlayBanner>
             <img
               src={bannerImg1}
               alt="banner image"
@@ -37,7 +37,7 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
+            <OverlayBanner></OverlayBanner>
             <img
               src={bannerImg2}
               alt="banner image"
@@ -48,7 +48,7 @@ const Banner = () => {
         <SwiperSlide>
           <div className="relative">
             <div className="w-full h-full bg-black absolute z-10 opacity-[.65]"></div>
-            <Overlay></Overlay>
+            <OverlayBanner></OverlayBanner>
             <img
               src={bannerImg3}
               alt="banner image"

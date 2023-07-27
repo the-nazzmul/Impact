@@ -36,7 +36,7 @@ const NavBar = () => {
             </div>
           </Link>
         </div>
-        {/* nav-right */}
+        {/* Menu Items */}
         <div className="hidden lg:block">
           <ul className="flex items-center gap-[28px]">{navElements}</ul>
         </div>
@@ -48,10 +48,10 @@ const NavBar = () => {
               <AiOutlineMenu size={48}></AiOutlineMenu>
             )}
           </div>
+          {/* Dropdown menu */}
           {isOpen ? (
             <>
               <div className="absolute rounded-xl shadow-md w-full dotted-bg overflow-hidden right-0 top-20  text-black p-4 transition ">
-                {/* <div className="bg-black w-full h-full opacity-[.69] absolute z-10"></div> */}
                 <ul className="flex flex-col items-center gap-4 text-white">
                   {navElements}
                 </ul>

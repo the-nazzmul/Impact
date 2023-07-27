@@ -4,6 +4,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 const PatronCard = ({ speaker }) => {
   return (
     <div className="relative patron-card bg-white">
+      {/* thunder svg */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="157"
@@ -17,7 +18,9 @@ const PatronCard = ({ speaker }) => {
         />
       </svg>
 
+      {/* card content */}
       <div className="absolute z-10 w-full h-full top-4 flex flex-col items-center">
+        {/* image and badge */}
         <div className=" w-60 rounded-full relative border flex flex-col items-center">
           <img src={speaker.image} />
           {speaker.status && (
@@ -27,6 +30,8 @@ const PatronCard = ({ speaker }) => {
             </button>
           )}
         </div>
+
+        {/* details */}
         <h3 className="text-2xl font-bold">{speaker.name}</h3>
         <p className="mb-2">{speaker.designation}</p>
         <button className="btn btn-square bg-[#EB9231] text-white rounded-md bottom-0">

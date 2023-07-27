@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import SingleEvent from "./SingleEvent";
 
 const TopSecForSmall = () => {
+
   const [events, setEvents] = useState([]);
 
   useEffect(() => {
@@ -12,6 +13,8 @@ const TopSecForSmall = () => {
       .then((res) => res.json())
       .then((data) => setEvents(data));
   }, []);
+
+  // Slick setting
   const settings = {
     infinite: true,
     speed: 500,
@@ -19,6 +22,7 @@ const TopSecForSmall = () => {
     slidesToScroll: 1,
   };
 
+  // grouping function
   const groupIntoChunksOfTwo = (data) => {
     const result = [];
     for (let i = 0; i < data.length; i += 2) {
