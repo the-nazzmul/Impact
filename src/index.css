@@ -44,11 +44,30 @@ body {
   background-size: cover;
   background-color: rgba(1, 6, 2, 0.95);
 }
+.chief-patron {
+  background-image:url("./assets/mic.png");
+  background-repeat: repeat;
+  background-size:50px;
+  background-position: 50px 50px;
+  background-color: #172C27;
+}
 
+.patron-card:hover svg path {
+  fill: #eb9231;
+}
 .nav-link {
   @apply hover:scale-125;
 }
 
-.patron-card:hover svg path{
-  fill: #EB9231;
-}
+
+background-repeat: repeat-x; /* Only repeat the image horizontally */
+  background-size: 100px 100px; /* Set the size of each image repeat (adjust as needed) */
+  background-position: 0 0; /* Start the background image from the top-left corner */
+
+  /* Create transparent gaps between images */
+  background: linear-gradient(to right, transparent 80px, rgba(255, 255, 255, 1) 80px),
+              linear-gradient(to right, transparent 80px, rgba(255, 255, 255, 1) 80px),
+              linear-gradient(to right, transparent 80px, rgba(255, 255, 255, 1) 80px),
+              url('path/to/your/microphone.png'); /* Replace with the path to your microphone image */
+  background-size: 20px 100px; /* Set the size of each dotted repeat (adjust as needed) */
+  background-repeat: repeat-x; /* Only repeat the dotted background horizontally */

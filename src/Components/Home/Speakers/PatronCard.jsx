@@ -3,7 +3,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 const PatronCard = ({ patron }) => {
   return (
-    <div className="relative patron-card">
+    <div className="relative patron-card bg-white">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         width="157"
