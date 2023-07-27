@@ -13,11 +13,11 @@ const SingleEvent = ({ event }) => {
 
       {/* top buttons */}
       <div className="absolute z-20 right-0 top-2">
-        <button className="btn btn-xs rounded-sm bg-[#F34509] border-none text-white font-light block mb-2 ml-auto">
+        <button className="btn btn-xs rounded-sm custom-bg border-none text-white font-light block mb-2 ml-auto">
           <BsFillCalendar2WeekFill className="hidden lg:inline mr-2" />
           {event.date}
         </button>
-        <button className="btn btn-xs rounded-sm bg-[#F34509] border-none text-white font-light block mb-2 ml-auto">
+        <button className="btn btn-xs rounded-sm custom-bg border-none text-white font-light block mb-2 ml-auto">
           <BsFillCalendar2WeekFill className="hidden lg:inline mr-2" />
           {event.time}
         </button>

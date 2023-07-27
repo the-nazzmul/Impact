@@ -6,6 +6,10 @@
 body {
   font-family: "Inter", sans-serif;
 }
+
+.custom-bg{
+  background: #F34509;
+}
 /* For Navbar */
 .nav-bg {
   background-image: url("./assets/NavImg.jpeg");

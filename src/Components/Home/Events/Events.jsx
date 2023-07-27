@@ -43,7 +43,7 @@ const Events = () => {
               adipiscing elit, sed do eiusmod tempor incididunt ut labore et
               dolore magna aliqua. Ut enim ad minim veniam
             </p>
-            <button className="btn bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
+            <button className="btn custom-bg border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
               Registration
             </button>
           </div>

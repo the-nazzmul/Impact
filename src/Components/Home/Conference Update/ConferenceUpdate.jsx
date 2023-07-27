@@ -3,10 +3,12 @@ import SectionHead from "../../SectionHead";
 import ConferenceCard from "./ConferenceCard";
 
 const ConferenceUpdate = () => {
-    const [updates, setUpdates] = useState([])
-    useEffect(()=>{
-        fetch("./FakeData/update.json").then(res=>res.json()).then(data=>setUpdates(data))
-    },[])
+  const [updates, setUpdates] = useState([]);
+  useEffect(() => {
+    fetch("./FakeData/update.json")
+      .then((res) => res.json())
+      .then((data) => setUpdates(data));
+  }, []);
   return (
     <div className="px-2 lg:px-20 xl:px-32 2xl:px-[310px] border-none pt-24 tower-bg-white">
       {/* Section heading */}
@@ -24,7 +26,9 @@ const ConferenceUpdate = () => {
 
       {/* bottom buttom */}
       <div className="flex justify-center pb-28">
-        <button className="btn rounded-full bg-[#F34509] text-white">All Blogs</button>
+        <button className="btn rounded-full custom-bg text-white">
+          All Blogs
+        </button>
       </div>
     </div>
   );

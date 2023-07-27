@@ -15,7 +15,7 @@ const NavBar = () => {
       <NavLink className="nav-link">Contact</NavLink>
       <NavLink className="nav-link">Registration</NavLink>
       <NavLink>
-        <button className="btn bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
+        <button className="btn custom-bg border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
           Call for Paper
         </button>
       </NavLink>

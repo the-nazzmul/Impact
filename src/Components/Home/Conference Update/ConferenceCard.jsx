@@ -11,7 +11,7 @@ const ConferenceCard = ({ update }) => {
         </div>
 
         {/* date and time */}
-        <div className="flex flex-col items-start justify-center text-white p-1 bg-[#F34509] w-20 h-20 absolute z-10 top-0 md:top-2 md:-right-10">
+        <div className="flex flex-col items-start justify-center text-white p-1 custom-bg w-20 h-20 absolute z-10 top-0 md:top-2 md:-right-10">
           <small>{update.date}</small>
           <small>{update.time}</small>
         </div>

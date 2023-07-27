@@ -29,7 +29,7 @@ const Footer = () => {
 
             {/* buttons */}
             <div className="flex flex-col xl:flex-row gap-2">
-              <button className="btn hidden md:block bg-[#F34509] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
+              <button className="btn hidden md:block custom-bg border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
                 Call for Paper
               </button>
               <button className="btn hidden md:block bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
