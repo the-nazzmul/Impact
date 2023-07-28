@@ -16,7 +16,7 @@ body {
 }
 
 .nav-link {
-  @apply hover:scale-125;
+  @apply hover:scale-125 duration-300 transition;
 }
 
 /* For Welcome section */

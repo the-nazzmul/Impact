@@ -10,10 +10,10 @@ const Sponsors = () => {
         
         {/* logos */}
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 pb-24'>
-            <div className='flex items-center justify-center'><img src={img1} alt="logo" /></div>
-            <div className='flex items-center justify-center'><img src={img2} alt="logo" /></div>
-            <div className='flex items-center justify-center'><img src={img3} alt="logo" /></div>
-            <div className='flex items-center justify-center'><img src={img4} alt="logo" /></div>
+            <div className='flex items-center justify-center hover:scale-125 duration-300 transition'><img src={img1} alt="logo" /></div>
+            <div className='flex items-center justify-center hover:scale-125 duration-300 transition'><img src={img2} alt="logo" /></div>
+            <div className='flex items-center justify-center hover:scale-125 duration-300 transition'><img src={img3} alt="logo" /></div>
+            <div className='flex items-center justify-center hover:scale-125 duration-300 transition'><img src={img4} alt="logo" /></div>
         </div>
       </div>
     );

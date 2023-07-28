@@ -27,8 +27,9 @@ const NavBar = () => {
 
       {/* content */}
       <div className="absolute z-20 text-white flex justify-between items-center w-full px-4 xl:px-20 2xl:px-80">
+
         {/* logo */}
-        <div>
+        <div className="cursor-pointer">
           <Link to="/">
             <div className="flex gap-[13px] items-center">
               <img src={logo} alt="logo" />
@@ -36,9 +37,10 @@ const NavBar = () => {
             </div>
           </Link>
         </div>
+
         {/* Menu Items */}
         <div className="hidden lg:block">
-          <ul className="flex items-center gap-[28px]">{navElements}</ul>
+          <div className="flex items-center gap-[28px]">{navElements}</div>
         </div>
         <div className="lg:hidden">
           <div onClick={() => setIsOpen(!isOpen)}>
@@ -48,13 +50,12 @@ const NavBar = () => {
               <AiOutlineMenu size={48}></AiOutlineMenu>
             )}
           </div>
+
           {/* Dropdown menu */}
           {isOpen ? (
             <>
-              <div className="absolute rounded-xl shadow-md w-full dotted-bg overflow-hidden right-0 top-20  text-black p-4 transition ">
-                <ul className="flex flex-col items-center gap-4 text-white">
-                  {navElements}
-                </ul>
+              <div className="flex flex-col items-center gap-4 p-4 absolute rounded-b-xl shadow-md w-full text-white dotted-bg overflow-hidden right-0 top-20">
+                {navElements}
               </div>
             </>
           ) : (

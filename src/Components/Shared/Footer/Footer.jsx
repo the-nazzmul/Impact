@@ -32,23 +32,23 @@ const Footer = () => {
               <button className="btn hidden md:block custom-bg border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
                 Call for Paper
               </button>
-              <button className="btn hidden md:block bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
+              <button className="btn hidden md:block bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px] hover:text-black hover:scale-110">
                 Registration
               </button>
             </div>
 
             {/* Social Media */}
             <div className="flex gap-1 md:gap-7 mt-2 md:mt-14">
-              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white hover:bg-[#F34509] hover:scale-110">
                 <FiMail size={20}></FiMail>
               </button>
-              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white hover:bg-[#F34509] hover:scale-110">
                 <FiFacebook size={20}></FiFacebook>
               </button>
-              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white hover:bg-[#F34509] hover:scale-110">
                 <FiYoutube size={20}></FiYoutube>
               </button>
-              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white">
+              <button className="btn btn-sm md:btn-md btn-outline btn-circle text-white hover:bg-[#F34509] hover:scale-110">
                 <SlSocialLinkedin size={20}></SlSocialLinkedin>
               </button>
             </div>

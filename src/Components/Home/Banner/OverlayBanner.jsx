@@ -36,10 +36,10 @@ const OverlayBanner = () => {
 
       {/* bottom-buttons */}
       <div className="flex gap-2 sm:gap-9 mt-2 sm:mt-10">
-        <button className="btn btn-xs md:btn-sm lg:btn-md custom-bg border-none rounded-[50px] text-white w-[158px]">
+        <button className="btn btn-xs md:btn-sm lg:btn-md custom-bg border-none rounded-[50px] text-white w-[158px] hover:text-black hover:scale-110">
           Details
         </button>
-        <button className="btn btn-xs md:btn-sm lg:btn-md bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px]">
+        <button className="btn btn-xs md:btn-sm lg:btn-md bg-transparent border-[#F34509] rounded-[50px] text-white w-[158px] hover:text-black hover:scale-110">
           Registration
         </button>
       </div>

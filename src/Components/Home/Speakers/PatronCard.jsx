@@ -3,7 +3,7 @@ import { AiFillThunderbolt } from "react-icons/ai";
 
 const PatronCard = ({ speaker }) => {
   return (
-    <div className="relative patron-card bg-white">
+    <div className="relative patron-card bg-white shadow-lg">
       {/* thunder svg */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +21,7 @@ const PatronCard = ({ speaker }) => {
       {/* card content */}
       <div className="absolute z-10 w-full h-full top-4 flex flex-col items-center">
         {/* image and badge */}
-        <div className=" w-60 rounded-full relative border flex flex-col items-center">
+        <div className=" w-60 rounded-full relative border flex flex-col items-center hover:scale-110 duration-300 transition">
           <img src={speaker.image} />
           {speaker.status && (
             <button className="btn btn-xs absolute z-20 -bottom-0 bg-[#179748] border-none text-white rounded-sm">
@@ -34,7 +34,7 @@ const PatronCard = ({ speaker }) => {
         {/* details */}
         <h3 className="text-2xl font-bold">{speaker.name}</h3>
         <p className="mb-2">{speaker.designation}</p>
-        <button className="btn btn-square bg-[#EB9231] text-white rounded-md bottom-0">
+        <button className="btn btn-square bg-[#EB9231] text-white rounded-md bottom-0 hover:scale-105 duration-300 transition">
           <TbWorld size={32}></TbWorld>
         </button>
       </div>

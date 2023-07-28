@@ -23,7 +23,7 @@ const OverlayWelcome = () => {
             src={buetlogo}
             alt="buet logo"
           />
-          <button className="btn bg-[#179748] border-0 rounded-[50px] text-white">
+          <button className="btn bg-[#179748] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
             Organized by: BUET{" "}
           </button>
         </div>
@@ -35,7 +35,7 @@ const OverlayWelcome = () => {
             src={IESD}
             alt="buet logo"
           />
-          <button className="btn bg-[#179748] border-0 rounded-[50px] text-white">
+          <button className="btn bg-[#179748] border-0 rounded-[50px] text-white hover:text-black hover:scale-110">
             Hosted by: IESD
           </button>
         </div>

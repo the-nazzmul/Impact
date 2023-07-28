@@ -2,7 +2,7 @@ import { BsFillCalendar2WeekFill } from "react-icons/bs";
 
 const SingleEvent = ({ event }) => {
   return (
-    <div className="relative">
+    <div className="relative hover:scale-105 duration-300 transition">
       <img src={event.image_url} alt="event picture" />
 
       {/* bottom texts */}

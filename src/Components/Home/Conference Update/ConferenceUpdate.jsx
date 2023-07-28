@@ -18,7 +18,7 @@ const ConferenceUpdate = () => {
       ></SectionHead>
 
       {/* update cards */}
-      <div className="mt-16 grid grid-col-1 xl:grid-cols-2 gap-6 mb-20">
+      <div className="mt-16 grid grid-col-1 xl:grid-cols-2 gap-5 mb-20">
         {updates.map((update) => (
           <ConferenceCard key={update.id} update={update}></ConferenceCard>
         ))}
@@ -26,7 +26,7 @@ const ConferenceUpdate = () => {
 
       {/* bottom buttom */}
       <div className="flex justify-center pb-28">
-        <button className="btn rounded-full custom-bg text-white">
+        <button className="btn rounded-full custom-bg text-white hover:text-black hover:scale-110">
           All Blogs
         </button>
       </div>
