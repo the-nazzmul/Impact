@@ -35,7 +35,7 @@ const ConferenceCard = ({ update }) => {
         <p className="mb-4 text-xs">
           {update.description.split("").slice(0, 200).join("")}...
         </p>
-        <Link className="font-bold">Read More...</Link>
+        <Link className="font-bold text-xs">Read More...</Link>
       </div>
     </div>
   );
