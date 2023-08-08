@@ -113,7 +113,7 @@ const Footer = () => {
       {/* bottom footer */}
       <footer className="px-10 py-4 bg-black">
         <div className="text-center text-white">
-          <h4>Design and Developed by CodersBucket Ltd</h4>
+          <h4>Design by CodersBucket Ltd and Developed by Nazmul Hussain</h4>
         </div>
       </footer>
     </>
